@@ -21,11 +21,21 @@ body{
     padding: 10px;
     color: black;
     box-shadow: 5px 5px 15px grey;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 1000.3 ease;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px gray;
+    
 }
 
 .card img{
-    width: 400px;
-    height: 300px;
+    max-width: 200px;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 .Title{
@@ -36,4 +46,12 @@ body{
     width: 500px;
     margin: 25px auto;
     border-radius: 15px;
+}
+@media screen and (max-width:800px) {
+    .container{
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
 }
