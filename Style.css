@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+.container{
+    width: 90vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height: 500px;
+    background-color:turquoise;
+    margin:  25px 0;
+    font-size: 20px;
+    font-family: Work Sans;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.card img{
+    width: 400px;
+    height: 300px;
+}
+
+.Title{
+    font-size: 40px;
+    font-style: Work Sans;
+    background-color: aliceblue;
+    text-align: center;
+    width: 500px;
+    margin: 25px auto;
+    border-radius: 15px;
+}
