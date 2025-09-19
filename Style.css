@@ -10,8 +10,8 @@ body{
     flex-wrap: wrap;
 }
 .card{
-    width: 30%;
-    height: 500px;
+    width: 25%;
+    height: 400px;
     background-color:turquoise;
     margin:  25px 0;
     font-size: 20px;
@@ -26,15 +26,16 @@ body{
 
 .card:hover{
     transform: scale(1.1);
-    transition: transform 1000.3 ease;
+    transition: all 1.0s ease;
     cursor: pointer;
     box-shadow: 5px 5px 15px gray;
+
     
 }
 
 .card img{
-    max-width: 200px;
-    max-height: 500px;
+    max-width: 150px;
+    max-height: 200px;
     object-fit: cover;
 }
 
