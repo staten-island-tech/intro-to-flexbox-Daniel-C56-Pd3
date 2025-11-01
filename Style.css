@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .container{
@@ -10,13 +10,13 @@ body{
     flex-wrap: wrap;
 }
 .card{
-    width: 25%;
+    width: 20%;
     height: 400px;
     background-color:turquoise;
-    margin:  25px 0;
+    margin: 15px 0;
     font-size: 20px;
-    font-family: Work Sans;
-    border-radius: 15px;
+    font-family: Caveat Brush;
+    border-radius: 5px;
     text-align: center;
     padding: 10px;
     color: black;
@@ -35,19 +35,69 @@ body{
 
 .card img{
     max-width: 150px;
-    max-height: 200px;
+    max-height: 150px;
     object-fit: cover;
 }
 
 .Title{
     font-size: 40px;
-    font-style: Work Sans;
+    font-style: Caveat Brush;
     background-color: aliceblue;
     text-align: center;
     width: 500px;
     margin: 25px auto;
     border-radius: 15px;
 }
+.box{
+    font-size: 40px;
+    width: 20%;
+    height: 400px;
+    background-color:turquoise;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Caveat Brush;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    margin: auto; 
+}
+.Brands{
+    font-size: 20px;
+    font-family: Caveat Brush;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin: auto;
+}
+.Cart{
+    font-size: 40px;
+    width: 20%;
+    background-color:turquoise;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Caveat Brush;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    margin: auto; 
+}
+.Total{
+    font-size: 40px;
+    width: 20%;
+    background-color:lightblue;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Caveat Brush;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    margin: auto; 
+}
+
 @media screen and (max-width:800px) {
     .container{
         flex-direction: column;
